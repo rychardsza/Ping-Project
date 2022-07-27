@@ -1,0 +1,21 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+form {
+    position: relative;
+    text-align: right;
+    width:150px;
+    display:block;
+    float:left;
+    clear:right;
+}
+
+.template-design {
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 30em;
+    padding-top: 190px;
+}
