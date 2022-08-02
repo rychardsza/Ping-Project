@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soon</title>
+    <title>Coming Soon Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="title-container">
-        <h3 class="main-title">We are launching soon!</h3>
-        <h5 class="sub-title">Subscribe and get notified</h5>
-    </div>
-    <div class="submit-container">
-    <form>
-        <div class="input-group">
-            <input type="text" placeholder="Your email address">
-        </div>
-        <button type="submit" class="submit-button">Notify Me</button>
-    </form>
-    </div>
+    <main>
+    <header class="header">
+        <img src="/images/logo.svg" alt="logo">
+    </header>
+
+   <section class="submit-container">
+        <h1>We are launching <span>soon!</span></h1>
+        <p>Subscribe and get notified</p>
+        <form class="form">
+            <input type="email" id="email" name="email" 
+            placeholder="Your email address" required  
+            autocomplete="off">
+            <button type="submit">Notify Me</button>
+        </form>
+    </section> 
+    
     <img class="template-design" src="images/illustration-dashboard.png">
-    <div class="social-icons"></div>   
+
+    
+        <ul class="footer">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+   <p>&copy; Copyright Ping. All rights reserved.</p>
+</main>
 </body>
 </html>
