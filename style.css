@@ -104,6 +104,7 @@ input::placeholder {
     height: 40px;
     width: 40px;
     text-decoration: none;
+    margin-top: 70px;
 }
 
 .footer li {
